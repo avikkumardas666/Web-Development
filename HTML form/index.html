@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CREATING A HTML FORM</h1>
+    <form action="">
+        <div>
+            <label for="name">Enter your name : </label>
+            <input type="text" name="name" placeholder="enter name here">
+        </div>
+        <div>
+            <label for="number">Enter your ph no : </label>
+            <input type="number" name="number" id="number" placeholder="enter number here">
+        </div>
+        <div>
+            <label for="tick">Tick the box if you are an adult : </label>
+            <input type="checkbox" id="tick" name="tick">
+        </div>
+        <div>
+            <label for="gender">Your gender :</label>
+
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <label for="age">Fav footballer :</label>
+            <select name="age" id="age">
+                <option value="cristiano">Cristiano Ronaldo</option>
+                <option value="messi">Lionel Messi</option>
+                <option value="neymar">Neymar Jr</option>
+                <option value="others">Someone else</option>
+            </select>
+        </div>
+        <div>
+            <label for="feedback">Give your feedback here :</label>
+            <br>
+            <textarea name="feedback" id="feedback" rows="2" cols="30"></textarea>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
